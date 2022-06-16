@@ -1,0 +1,89 @@
+<!DOCTYPE        html>
+
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Express</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nova+Slim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="/javascripts/java.js" defer></script>
+
+</head>
+
+<body onload="getdates()">
+
+  <header>
+
+    <div id="header">
+      <h1 class="mainheading">Seating Plan</h1>
+    </div>
+
+  </header>
+
+  <section id="section">
+    <div class="front-back">
+      <div>
+        <select id="dates">
+          <option disabled selected value="-1">Pick a date</option>
+        </select>
+        </div>
+
+      <h2 class="headi">Front Row</h2>
+
+        <div>
+        <select id="movies">
+          <option disabled selected value="-1">Pick a Movie</option>
+        </select>
+        </div>
+    </div>
+
+  <div class="container">
+      <div class="seats">
+        <input type="checkbox" class="seat" id="A1" name="A1" value="A1">
+        <label for="vehicle1"> A1</label>
+
+        <input type="checkbox" class="seat" id="A2" name="A2" value="A2">
+        <label for="vehicle1"> A2</label>
+
+        <input type="checkbox" class="seat" id="A3" name="A3" value="A3">
+        <label for="vehicle1"> A3</label>
+
+        <input type="checkbox" class="seat" id="A4" name="A4" value="A4">
+        <label for="vehicle1"> A4</label>
+      </div>
+   </div>
+
+  <br>
+
+  <div class="container">
+      <div class="seats">
+        <input type="checkbox" class="seat" id="B1" name="B1" value="B1">
+        <label for="vehicle1"> B1</label>
+
+        <input type="checkbox" class="seat" id="B2" name="B2" value="B2">
+        <label for="vehicle1"> B2</label>
+
+        <input type="checkbox" class="seat" id="B3" name="B3" value="B3">
+        <label for="vehicle1"> B3</label>
+
+        <input type="checkbox" class="seat" id="B4" name="B4" value="B4">
+        <label for="vehicle1"> B4</label>
+      </div>
+  </div>
+
+  <div class="front-back">
+    <h2 class="headi">Back Row</h2>
+    </div>
+</section>
+
+  <footer id="footer">
+
+    <div id="copy">
+      <p>© 2022 Willis Cinemas, All rights reserved.</p>
+    </div>
+
+  </footer>
+
+</body>
+</html>
